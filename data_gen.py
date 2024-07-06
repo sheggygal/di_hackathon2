@@ -99,7 +99,7 @@ def process_posts(posts, posts_df, comments_df, series):
 
 # Main function to fetch and store data
 def main():
-    posts_df, comments_df = load_existing_data(posts_file='/mnt/data/tumblr_posts.csv')
+    posts_df, comments_df = load_existing_data(posts_file='tumblr_posts.csv)
     series_list = ["The Mandalorian", "The Book of Boba Fett", "Obi-Wan Kenobi", "Andor", "Ahsoka", "The Acolyte"]
 
     for series in series_list:
